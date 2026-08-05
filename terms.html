@@ -1,120 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Terms & Conditions - Accountancy Chamber">
-    <title>Terms & Conditions | Accountancy Chamber</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service | Accountancy Chamber</title>
+  <meta name="description" content="Terms of Service for Accountancy Chamber, Slough, UK. The basis on which we provide accounting, tax and bookkeeping services to our clients.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- NEW LEFT SIDE NAVIGATION -->
-    <nav class="navbar">
+  <!-- LEFT SIDEBAR -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <img src="logo.png" alt="Accountancy Chamber Logo">
+    </div>
+
+    <div class="sidebar-nav">
+      <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        Home
+      </a>
+      <a href="about.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        About
+      </a>
+      <a href="services.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        Services
+      </a>
+      <a href="process.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        Process
+      </a>
+      <a href="faq.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+        FAQ
+      </a>
+      <a href="contact.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        Contact
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="name">Rafi Ullah Khan, MAAT</div>
+      <div class="meta">Accountant · Slough, UK</div>
+      <div class="meta"><a href="mailto:raf@accountancychamber.com">raf@accountancychamber.com</a></div>
+    </div>
+  </nav>
+
+  <!-- MOBILE HEADER -->
+  <div class="mobile-header">
+    <img src="logo.png" alt="Accountancy Chamber">
+    <button class="hamburger" aria-label="Toggle Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <div class="overlay"></div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+    <main>
+
+      <!-- PAGE HEADER -->
+      <section class="page-header">
         <div class="container">
-            <div class="logo">
-                <img src="logo.png" alt="Accountancy Chamber">
-            </div>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <span class="eyebrow">Legal</span>
+          <h1>Terms of Service</h1>
+          <p class="updated">Last updated: 5 August 2026</p>
+          <div class="gold-rule"></div>
         </div>
-    </nav>
+      </section>
 
-    <!-- MAIN CONTENT WRAPPER -->
-    <div class="main-content">
+      <!-- TERMS CONTENT -->
+      <section>
+        <div class="container legal-content">
 
-    <section class="page-header">
-        <div class="container">
-            <h1>Terms & Conditions</h1>
+          <h2>1. About These Terms</h2>
+          <p>These terms apply to the use of this website and to the professional services provided by Rafi Ullah Khan, MAAT, trading as Accountancy Chamber ("we", "us", "our"), based in Slough, United Kingdom. By using this website or engaging our services, you agree to these terms.</p>
+
+          <h2>2. Our Services</h2>
+          <p>We provide accounting, bookkeeping, tax, payroll and related services to individuals and businesses. The specific scope of work for each client is set out in a written proposal and engagement letter agreed before work begins. These website terms do not, on their own, create a client relationship.</p>
+
+          <h2>3. Fees and Payment</h2>
+          <p>Our fees are fixed and agreed with you in writing before work starts — there are no hourly billing surprises. Invoices are payable within 14 days of the invoice date unless otherwise agreed. We reserve the right to pause work where invoices remain unpaid after reminder. Any disbursements (third-party costs) incurred on your behalf will be recharged at cost.</p>
+
+          <h2>4. Your Responsibilities</h2>
+          <p>To enable us to serve you properly, you agree to:</p>
+          <ul>
+            <li>Provide complete and accurate information and records in a timely manner;</li>
+            <li>Inform us of any changes to your circumstances that affect your accounts or tax position;</li>
+            <li>Review and approve drafts we send before submission where your approval is required.</li>
+          </ul>
+          <p>We rely on the information you supply. We cannot accept responsibility for errors, penalties or liabilities arising from incomplete, inaccurate or late information provided to us.</p>
+
+          <h2>5. Our Responsibilities and Liability</h2>
+          <p>We perform all services with reasonable care and skill and in accordance with applicable professional standards. Nothing in these terms limits liability that cannot be limited under English law. Our liability for any single claim is limited to the fees paid to us for the relevant service, except in cases of fraud or deliberate wrongdoing, or liability for death or personal injury caused by negligence.</p>
+
+          <h2>6. Anti-Money Laundering</h2>
+          <p>We are required by UK law to carry out client identity checks and to maintain anti-money laundering procedures. We may request identification documents before work begins and we have statutory reporting obligations which, where applicable, we must fulfil without disclosure to you.</p>
+
+          <h2>7. Data Protection</h2>
+          <p>We process your personal data in accordance with UK data protection law and our <a href="gdpr.html" style="color: var(--gold-dark);">Privacy Policy</a>, which explains how we collect, use, store and protect your information.</p>
+
+          <h2>8. Complaints</h2>
+          <p>We aim to provide a consistently high standard of service. If something falls short, please tell us at <a href="mailto:raf@accountancychamber.com" style="color: var(--gold-dark);">raf@accountancychamber.com</a> so we can put it right. We will acknowledge any complaint promptly and work with you to resolve it fairly and quickly.</p>
+
+          <h2>9. Ending the Engagement</h2>
+          <p>Either party may end the engagement by giving written notice. You remain responsible for fees relating to work carried out up to the date of termination, and we will take reasonable steps to hand over your records in an orderly manner.</p>
+
+          <h2>10. General</h2>
+          <p>These terms are governed by the laws of England and Wales, and the courts of England and Wales have exclusive jurisdiction over any disputes. If any part of these terms is found unenforceable, the remaining terms continue in full force. Any changes to these terms will be published on this page.</p>
+
+          <h2>11. Contact</h2>
+          <p>Questions about these terms? Contact us at <a href="mailto:raf@accountancychamber.com" style="color: var(--gold-dark);">raf@accountancychamber.com</a> or write to: Accountancy Chamber, Slough, United Kingdom.</p>
+
         </div>
-    </section>
+      </section>
 
-    <section class="content-section">
-        <div class="container">
-            <div class="content-box">
-                <h2>Terms of Engagement</h2>
-                <p>By engaging with Accountancy Chamber, clients agree to the following:</p>
+    </main>
 
-                <h3>Services</h3>
-                <p>We provide accounting, tax, bookkeeping, and compliance services in accordance with UK regulations.</p>
-
-                <h3>Client Responsibilities</h3>
-                <p>Clients must provide accurate and timely information and review all submissions before filing.</p>
-
-                <h3>Fees</h3>
-                <p>Fees are agreed in advance. Additional work may incur additional charges. Services may be paused if payment terms are not met.</p>
-
-                <h3>Professional Standards</h3>
-                <p>All work is carried out in accordance with MAAT professional and ethical requirements.</p>
-
-                <h3>Confidentiality</h3>
-                <p>All information is handled securely in line with GDPR requirements.</p>
-
-                <h3>Limitation of Liability</h3>
-                <p>We are not liable for:</p>
-                <ul class="check-list">
-                    <li>Client-provided incorrect information</li>
-                    <li>Delays caused by missing information</li>
-                    <li>Changes in HMRC rules</li>
-                </ul>
-
-                <h3>Deadlines & Penalties</h3>
-                <p>We aim to meet deadlines, but penalties resulting from late client information remain the client's responsibility.</p>
-
-                <h3>Data Protection</h3>
-                <p>All data is processed in accordance with our GDPR policy.</p>
-
-                <h3>AML Compliance</h3>
-                <p>We may verify identity in line with UK Anti-Money Laundering regulations.</p>
-
-                <h3>Termination</h3>
-                <p>Services may be terminated by either party with notice. Outstanding fees remain payable.</p>
-
-                <h3>Governing Law</h3>
-                <p>These terms are governed by the laws of England and Wales.</p>
-
-                <p style="margin-top: 2rem;"><strong>Last updated:</strong> 2024</p>
-            </div>
-        </div>
-    </section>
-
-    </div> <!-- END OF MAIN CONTENT WRAPPER -->
-
+    <!-- FOOTER -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Accountancy Chamber</h3>
-                    <p>Licensed Accountant in Practice (MAAT)</p>
-                    <p>34 Northern Road, Slough, SL2 7PA, UK</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📞 +44 7940 587257</p>
-                    <p> +44 01753-350 359</p>
-                    <p>✉️ raf@accountancychamber.com</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="gdpr.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Accountancy Chamber. All rights reserved.</p>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <h4>Accountancy Chamber</h4>
+          <p>Professional accounting services based in Slough, serving clients across the UK. MAAT qualified.</p>
         </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Slough, UK</li>
+            <li><a href="mailto:raf@accountancychamber.com">raf@accountancychamber.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Accountancy Chamber. All rights reserved. | <a href="gdpr.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+      </div>
     </footer>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
