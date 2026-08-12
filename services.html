@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Top Navigation -->
+    <!-- Top Navigation with Logo -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="index.html" class="logo">Accountancy Chamber</a>
+            <a href="index.html" class="logo-link">
+                <!-- Make sure your logo file is named logo.png and in the same folder -->
+                <img src="logo.png" alt="Accountancy Chamber Logo" class="nav-logo">
+            </a>
             <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html" class="active">Services</a></li>
@@ -48,17 +51,15 @@
             
             <!-- Service 1: Annual Accounts -->
             <div class="service-detail-card" id="annual-accounts">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80" alt="Annual Accounts" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">📊</div>
                     <h2>Annual Account Preparations</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Preparing annual accounts is a legal requirement for most UK businesses and an essential part of 
-                        understanding your company's financial performance. At Accountancy Chamber, we provide professional 
-                        annual accounts preparation services, ensuring your accounts are accurate, compliant, and submitted on time. 
-                        We handle the entire process, giving you peace of mind and allowing you to focus on running your business.
-                    </p>
+                    <p class="service-intro">Preparing annual accounts is a legal requirement for most UK businesses and an essential part of understanding your company's financial performance. At Accountancy Chamber, we provide professional annual accounts preparation services, ensuring your accounts are accurate, compliant, and submitted on time. We handle the entire process, giving you peace of mind and allowing you to focus on running your business.</p>
                     <h3>Benefits of Our Annual Accounts Service:</h3>
                     <ul class="service-benefits">
                         <li>Ensure compliance with HMRC and Companies House requirements</li>
@@ -72,16 +73,15 @@
 
             <!-- Service 2: Bookkeeping -->
             <div class="service-detail-card" id="bookkeeping">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=800&q=80" alt="Bookkeeping" class="service-detail-img">
+                </div>
                 <div class="service-header">
-                    <div class="service-icon-large">📚</div>
+                    <div class="service-icon-large"></div>
                     <h2>Bookkeeping Services</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Keep your financial records accurate, organised, and up to date with our professional bookkeeping services. 
-                        We help businesses maintain clear financial records, monitor cash flow, and stay compliant, providing the 
-                        insight needed to make confident business decisions.
-                    </p>
+                    <p class="service-intro">Keep your financial records accurate, organised, and up to date with our professional bookkeeping services. We help businesses maintain clear financial records, monitor cash flow, and stay compliant, providing the insight needed to make confident business decisions.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>Transaction recording</li>
@@ -96,15 +96,15 @@
 
             <!-- Service 3: Corporation Tax -->
             <div class="service-detail-card" id="corporation-tax">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Corporation Tax" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">🏢</div>
                     <h2>Corporation Tax</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Stay compliant and avoid unnecessary tax liabilities with our expert Corporation Tax services. 
-                        We help limited companies meet their HMRC obligations while identifying opportunities to improve tax efficiency.
-                    </p>
+                    <p class="service-intro">Stay compliant and avoid unnecessary tax liabilities with our expert Corporation Tax services. We help limited companies meet their HMRC obligations while identifying opportunities to improve tax efficiency.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>Corporation Tax calculations</li>
@@ -117,18 +117,18 @@
                 </div>
             </div>
 
-            <!-- Service 4: Payroll Services -->
+            <!-- Service 4: Payroll Services (YOUR UPLOADED IMAGE) -->
             <div class="service-detail-card" id="payroll">
+                <div class="service-image-container">
+                    <!-- Make sure to save your uploaded payroll image as 'payroll.jpg' in your folder -->
+                    <img src="payroll.jpg" alt="Payroll Services" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">👥</div>
                     <h2>Payroll Services</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Ensure your employees are paid accurately and on time with our reliable payroll services. 
-                        We manage the entire payroll process, helping your business remain compliant with HMRC regulations 
-                        while reducing administrative workload.
-                    </p>
+                    <p class="service-intro">Ensure your employees are paid accurately and on time with our reliable payroll services. We manage the entire payroll process, helping your business remain compliant with HMRC regulations while reducing administrative workload.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>Payroll processing</li>
@@ -141,18 +141,18 @@
                 </div>
             </div>
 
-            <!-- Service 5: Self Assessment -->
+            <!-- Service 5: Self Assessment (YOUR UPLOADED IMAGE) -->
             <div class="service-detail-card" id="self-assessment">
+                <div class="service-image-container">
+                    <!-- Make sure to save your uploaded tax return image as 'self-assessment.jpg' in your folder -->
+                    <img src="self-assessment.jpg" alt="Self Assessment Tax Return" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">📝</div>
                     <h2>Self Assessment Tax Returns</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Filing a Self Assessment Tax Return can be time-consuming and complex. Our expert team ensures your 
-                        tax return is prepared accurately and submitted on time, helping you stay compliant with HMRC while 
-                        minimising your tax liability where possible.
-                    </p>
+                    <p class="service-intro">Filing a Self Assessment Tax Return can be time-consuming and complex. Our expert team ensures your tax return is prepared accurately and submitted on time, helping you stay compliant with HMRC while minimising your tax liability where possible.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>Self Assessment tax return preparation</li>
@@ -167,16 +167,15 @@
 
             <!-- Service 6: Tax Planning -->
             <div class="service-detail-card" id="tax-planning">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Tax Planning" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">💡</div>
                     <h2>Tax Planning & Advice</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Make informed financial decisions with proactive tax planning tailored to your personal and business 
-                        circumstances. We advice helps you manage your tax obligations efficiently while ensuring full 
-                        compliance with HMRC regulations.
-                    </p>
+                    <p class="service-intro">Make informed financial decisions with proactive tax planning tailored to your personal and business circumstances. We advice helps you manage your tax obligations efficiently while ensuring full compliance with HMRC regulations.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>Personal and business tax planning</li>
@@ -193,16 +192,15 @@
 
             <!-- Service 7: VAT Returns -->
             <div class="service-detail-card" id="vat-returns">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80" alt="VAT Returns" class="service-detail-img">
+                </div>
                 <div class="service-header">
                     <div class="service-icon-large">🔄</div>
                     <h2>VAT Returns</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        Stay compliant with HMRC and avoid costly mistakes with our professional VAT Return services. 
-                        We prepare and submit accurate VAT returns on your behalf, ensuring your business meets all 
-                        VAT obligations efficiently and on time.
-                    </p>
+                    <p class="service-intro">Stay compliant with HMRC and avoid costly mistakes with our professional VAT Return services. We prepare and submit accurate VAT returns on your behalf, ensuring your business meets all VAT obligations efficiently and on time.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>VAT Return preparation and filing</li>
@@ -217,16 +215,15 @@
 
             <!-- Service 8: CIS Services -->
             <div class="service-detail-card" id="cis">
+                <div class="service-image-container">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="CIS Services" class="service-detail-img">
+                </div>
                 <div class="service-header">
-                    <div class="service-icon-large">️</div>
+                    <div class="service-icon-large">🏗️</div>
                     <h2>CIS Services</h2>
                 </div>
                 <div class="service-body">
-                    <p class="service-intro">
-                        We provide comprehensive CIS support for contractors and subcontractors, helping you meet your 
-                        Construction Industry Scheme obligations accurately and on time. We ensures compliance with 
-                        HMRC requirements while reducing your administrative burden.
-                    </p>
+                    <p class="service-intro">We provide comprehensive CIS support for contractors and subcontractors, helping you meet your Construction Industry Scheme obligations accurately and on time. We ensures compliance with HMRC requirements while reducing your administrative burden.</p>
                     <h3>Our Services Include:</h3>
                     <ul class="service-benefits">
                         <li>CIS registration</li>
