@@ -771,3 +771,48 @@ body {
         font-size: 1.8rem;
     }
 }
+/* Logo Image Styles */
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px; /* Adjust this height if your logo is too big/small */
+    width: auto;
+    object-fit: contain;
+}
+
+/* Service Detail Image Styles */
+.service-image-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.service-detail-card:hover .service-detail-img {
+    transform: scale(1.02);
+}
+
+/* Responsive Image Adjustments */
+@media (max-width: 768px) {
+    .nav-logo {
+        height: 40px;
+    }
+    .service-image-container {
+        height: 200px;
+    }
+}
