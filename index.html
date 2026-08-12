@@ -1,275 +1,180 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accountancy Chamber | Rafi Ullah Khan, MAAT - Accountant in Slough</title>
-  <meta name="description" content="Expert accounting, tax planning, and bookkeeping services in Slough, UK. Rafi Ullah Khan, MAAT provides professional, fixed-fee accounting for businesses and individuals.">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accountancy Chamber - Professional Accounting Services UK</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- LEFT SIDEBAR (Black Background, White Text) -->
-  <nav class="sidebar">
-    <div class="sidebar-header">
-      <!-- Replace 'logo.png' with your actual logo file name if different -->
-      <img src="logo.png" alt="Accountancy Chamber Logo">
-    </div>
-
-    <div class="sidebar-nav">
-      <a href="index.html" class="active">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-        Home
-      </a>
-      <a href="about.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-        About
-      </a>
-      <a href="services.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-        Services
-      </a>
-      <a href="process.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-        Process
-      </a>
-      <a href="faq.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-        FAQ
-      </a>
-      <a href="contact.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-        Contact
-      </a>
-    </div>
-
-    <div class="sidebar-footer">
-      <div class="name">Rafi Ullah Khan, MAAT</div>
-      <div class="meta">Accountant · Slough, UK</div>
-      <div class="meta"><a href="mailto:raf@accountancychamber.com">raf@accountancychamber.com</a></div>
-    </div>
-  </nav>
-
-  <!-- MOBILE HEADER (Hidden on Desktop) -->
-  <div class="mobile-header">
-    <img src="logo.png" alt="Accountancy Chamber">
-    <button class="hamburger" aria-label="Toggle Menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="3" y1="12" x2="21" y2="12"></line>
-        <line x1="3" y1="6" x2="21" y2="6"></line>
-        <line x1="3" y1="18" x2="21" y2="18"></line>
-      </svg>
-    </button>
-  </div>
-  <div class="overlay"></div>
-
-  <!-- MAIN CONTENT WRAPPER -->
-  <div class="main-content">
-    <main>
-      
-      <!-- HERO SECTION -->
-      <section class="hero section-alt">
-        <div class="container hero-grid">
-          <div class="hero-text">
-            <span class="eyebrow">Accountants & Tax Advisers in Slough</span>
-            <h1>Tax, bookkeeping & compliance — handled with precision.</h1>
-            <p class="lead">Expert accounting services for individuals and businesses across the UK. We take the stress out of tax returns and financial compliance so you can focus on growth.</p>
-            <div class="hero-buttons">
-              <a href="contact.html" class="btn btn-primary">Arrange a Consultation</a>
-              <a href="services.html" class="btn btn-outline">Explore Services</a>
-            </div>
-            <div class="trust-line">
-              <span>MAAT Qualified</span> <span class="dot"></span> 
-              <span>Fixed Transparent Fees</span> <span class="dot"></span> 
-              <span>Serving Clients UK-Wide</span>
-            </div>
-          </div>
-          <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80" alt="Professional Accounting Services" class="hero-img">
-          </div>
-        </div>
-      </section>
-
-      <!-- STATS / CREED BAND -->
-      <section class="stats-band">
-        <div class="container stats-grid">
-          <div class="stat-item">
-            <span class="stat-icon">MAAT</span>
-            <h3>Member of AAT</h3>
-            <p>Certified professional standards you can trust.</p>
-          </div>
-          <div class="stat-item">
-            <span class="stat-icon">UK</span>
-            <h3>Nationwide Service</h3>
-            <p>Based in Slough, serving clients across the entire UK.</p>
-          </div>
-          <div class="stat-item">
-            <span class="stat-icon">FIXED</span>
-            <h3>Fixed Fee Pricing</h3>
-            <p>Agreed upfront. No hourly billing surprises.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- SERVICES GRID -->
-      <section class="services-section">
-        <div class="container">
-          <div class="section-header">
-            <span class="eyebrow">What We Do</span>
-            <h2>Our Services</h2>
-            <p>Comprehensive financial support tailored to your needs.</p>
-          </div>
-          <div class="services-grid">
-            <!-- Service Card 1 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              </div>
-              <h3>Accounts & Reporting</h3>
-              <p>Accurate annual accounts prepared for limited companies, sole traders, and partnerships.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-            <!-- Service Card 2 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-              </div>
-              <h3>Tax Planning</h3>
-              <p>Strategic tax advice to minimize liability and ensure full HMRC compliance.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-            <!-- Service Card 3 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-              </div>
-              <h3>Bookkeeping</h3>
-              <p>Real-time cloud bookkeeping to keep your business finances organized and up to date.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-            <!-- Service Card 4 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-              </div>
-              <h3>Payroll</h3>
-              <p>Efficient payroll processing, RTI submissions, and pension auto-enrolment.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-            <!-- Service Card 5 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-              </div>
-              <h3>Company Formation</h3>
-              <p>Fast limited company registration with all necessary HMRC and Companies House setups.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-            <!-- Service Card 6 -->
-            <div class="card">
-              <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              </div>
-              <h3>Self Assessment</h3>
-              <p>Personal tax returns filed accurately and on time. Landlords, contractors, and freelancers.</p>
-              <a href="services.html" class="card-link">Learn more →</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- WHY CHOOSE US -->
-      <section class="why-us section-alt">
-        <div class="container why-grid">
-          <div class="why-text">
-            <span class="eyebrow">Why Choose Us</span>
-            <h2>A personal accountant, not a call centre.</h2>
-            <p>We believe in direct access to your accountant. No generic advice, no automated phone systems, and no hidden fees.</p>
-            <a href="about.html" class="btn btn-outline">About Our Practice</a>
-          </div>
-          <div class="why-list">
-            <ul>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Direct access to your dedicated accountant
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Plain-English advice you can actually understand
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Fixed fees agreed upfront — no surprises
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Every HMRC deadline tracked for you
-              </li>
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Accountancy Chamber</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
         </div>
-      </section>
+    </nav>
 
-      <!-- PROCESS TEASER -->
-      <section class="process-section">
+    <!-- Hero Section -->
+    <header class="hero">
         <div class="container">
-          <div class="section-header">
-            <span class="eyebrow">How We Work</span>
-            <h2>Simple, transparent process</h2>
-          </div>
-          <div class="process-steps">
-            <div class="step">
-              <span class="step-num">01</span>
-              <h3>Discovery Call</h3>
-              <p>We discuss your business needs and current accounting setup.</p>
+            <h1>Professional Accounting Services You Can Trust</h1>
+            <p>Managing your finances effectively is essential for the success and growth of your business. At Accountancy Chamber, we provide reliable and accurate accounting services tailored to the needs of sole traders, limited companies, partnerships, and growing SMEs across the UK.</p>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary">Our Services</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
             </div>
-            <div class="step">
-              <span class="step-num">02</span>
-              <h3>Fixed-Fee Proposal</h3>
-              <p>You receive a clear proposal with agreed-upon pricing.</p>
-            </div>
-            <div class="step">
-              <span class="step-num">03</span>
-              <h3>Seamless Onboarding</h3>
-              <p>We handle the paperwork and transition smoothly.</p>
-            </div>
-            <div class="step">
-              <span class="step-num">04</span>
-              <h3>Year-Round Support</h3>
-              <p>Ongoing compliance and strategic advice whenever you need it.</p>
-            </div>
-          </div>
         </div>
-      </section>
+    </header>
 
-      <!-- CTA BAND -->
-      <section class="cta-band">
+    <!-- Value Proposition -->
+    <section class="value-prop">
         <div class="container">
-          <h2>Let's get your accounts in order.</h2>
-          <p>Schedule a free initial consultation today.</p>
-          <a href="contact.html" class="btn btn-primary">Arrange a Consultation</a>
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="icon">✓</div>
+                    <h3>Stay Compliant</h3>
+                    <p>Never miss a deadline or worry about HMRC regulations again</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon"></div>
+                    <h3>Make Informed Decisions</h3>
+                    <p>Get clear financial insights to grow your business confidently</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon">🎯</div>
+                    <h3>Focus on Growth</h3>
+                    <p>We handle the numbers and paperwork so you can focus on running your business</p>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="container footer-grid">
-        <div class="footer-col">
-          <h4>Accountancy Chamber</h4>
-          <p>Professional accounting services based in Slough, serving clients across the UK. MAAT qualified.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <ul>
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <h2 class="section-title">Our Accounting Services</h2>
+            <p class="section-subtitle">Comprehensive financial solutions tailored to your business needs</p>
             
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Annual Accounts</h3>
+                    <p>Professional annual accounts preparation ensuring compliance with HMRC and Companies House</p>
+                    <a href="services.html#annual-accounts" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Bookkeeping</h3>
+                    <p>Keep your financial records accurate, organised, and up to date with our professional services</p>
+                    <a href="services.html#bookkeeping" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Corporation Tax</h3>
+                    <p>Stay compliant and avoid unnecessary tax liabilities with our expert Corporation Tax services</p>
+                    <a href="services.html#corporation-tax" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3>Payroll Services</h3>
+                    <p>Ensure your employees are paid accurately and on time with our reliable payroll services</p>
+                    <a href="services.html#payroll" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3>Self Assessment</h3>
+                    <p>Expert preparation and submission of your tax return with HMRC compliance</p>
+                    <a href="services.html#self-assessment" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💡</div>
+                    <h3>Tax Planning</h3>
+                    <p>Make informed financial decisions with proactive tax planning tailored to your circumstances</p>
+                    <a href="services.html#tax-planning" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔄</div>
+                    <h3>VAT Returns</h3>
+                    <p>Stay compliant with HMRC and avoid costly mistakes with our professional VAT Return services</p>
+                    <a href="services.html#vat-returns" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h3>CIS Services</h3>
+                    <p>Comprehensive CIS support for contractors and subcontractors in the construction industry</p>
+                    <a href="services.html#cis" class="service-link">Learn More →</a>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <a href="services.html" class="btn btn-primary btn-large">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Accountancy Chamber?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>✓ Expert Team</h3>
+                    <p>Qualified accountants with years of experience</p>
+                </div>
+                <div class="feature">
+                    <h3>✓ Tailored Solutions</h3>
+                    <p>Services designed for your specific business needs</p>
+                </div>
+                <div class="feature">
+                    <h3>✓ Competitive Pricing</h3>
+                    <p>Transparent fees with no hidden costs</p>
+                </div>
+                <div class="feature">
+                    <h3>✓ Technology Driven</h3>
+                    <p>Cloud-based solutions for modern businesses</p>
+                </div>
+                <div class="feature">
+                    <h3>✓ Personal Service</h3>
+                    <p>Dedicated account manager for your business</p>
+                </div>
+                <div class="feature">
+                    <h3>✓ UK Wide</h3>
+                    <p>Serving businesses across the United Kingdom</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta" id="contact">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Let us help you manage your finances and grow your business</p>
+            <a href="mailto:info@accountancychamber.co.uk" class="btn btn-primary btn-large">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Accountancy Chamber. All rights reserved.</p>
+            <p>Professional accounting services for businesses across the UK</p>
+        </div>
+    </footer>
+</body>
+</html>
+     
