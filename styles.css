@@ -471,3 +471,134 @@ body {
         font-size: 1.8rem;
     }
 }
+
+/* Process Section */
+.process-section {
+    padding: 4rem 2rem;
+    background: #f8f9fa;
+}
+
+.process-step {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.process-step:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.step-number {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #667eea;
+    opacity: 0.3;
+    margin-right: 3rem;
+    line-height: 1;
+    min-width: 100px;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h2 {
+    font-size: 2rem;
+    color: #1e3c72;
+    margin-bottom: 1rem;
+}
+
+.step-content p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.step-details {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.step-details li {
+    padding: 0.6rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #444;
+    font-size: 1rem;
+}
+
+.step-details li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
+}
+
+/* Process Benefits */
+.process-benefits {
+    padding: 5rem 2rem;
+    background: white;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.benefit-card {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.benefit-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.benefit-card h3 {
+    font-size: 1.4rem;
+    color: #1e3c72;
+    margin-bottom: 0.8rem;
+}
+
+.benefit-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .process-step {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    .step-number {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        min-width: auto;
+        text-align: center;
+    }
+    
+    .step-content h2 {
+        font-size: 1.6rem;
+    }
+}
