@@ -486,3 +486,61 @@ h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; color: var(--black
     .service-header h2 { font-size: 1.6rem; }
     .contact-cta h2, .services-cta h2 { font-size: 2rem; }
 }
+
+/* ============ FINAL SITE UNIFICATION ============ */
+.sidebar, .mobile-header, .overlay { display: none !important; }
+.main-content { margin-left: 0 !important; width: 100%; }
+
+.services-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; }
+.service-card { padding: 1.25rem; display: flex; flex-direction: column; min-width: 0; }
+.service-image {
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    background: var(--white);
+    border: 3px solid var(--gold);
+    outline: 1px solid var(--gold-dark);
+    outline-offset: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-image img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.service-image-text { background: var(--off-white); }
+.service-image-text span { font-family: 'Playfair Display', Georgia, serif; color: var(--black); font-weight: 700; font-size: 1.8rem; line-height: 1.25; }
+.service-card .service-link { margin-top: auto; padding-top: 1rem; }
+
+.who-we-help { padding: 5rem 2rem; background: var(--white); }
+.who-intro { max-width: 1000px; margin: 0 auto 3rem; }
+.who-intro p { margin-bottom: 1.2rem; line-height: 1.85; }
+.who-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.who-card { background: var(--off-white); border-left: 4px solid var(--gold); padding: 2rem; }
+.who-card h3 { margin-bottom: 0.8rem; font-size: 1.45rem; }
+.who-card p { line-height: 1.75; }
+
+.about-content { display: block; max-width: 900px; margin: 0 auto; }
+.contact-section { padding: 5rem 2rem; background: var(--off-white); }
+.contact-layout { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 3rem; align-items: start; }
+.contact-details, .contact-form { background: var(--white); border-top: 3px solid var(--gold); padding: 2.5rem; }
+.contact-details h2 { margin-bottom: 1rem; }
+.contact-details p { margin-bottom: 1.5rem; }
+.contact-details a, .footer a { color: var(--gold-dark); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; color: var(--black); font-weight: 600; margin-bottom: 0.45rem; }
+.form-group input, .form-group select { width: 100%; padding: 0.9rem; border: 1px solid #b8b8b8; background: var(--white); font: inherit; }
+.form-group input:focus, .form-group select:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+.form-success { margin-top: 1rem; padding: 1rem; border-left: 4px solid var(--gold); background: var(--off-white); color: var(--black); }
+
+@media (max-width: 900px) {
+    .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .contact-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+    .services-grid, .who-grid, .form-row { grid-template-columns: 1fr; }
+    .service-image { height: 240px; }
+    .nav-container { flex-direction: column; gap: 0.75rem; }
+    .nav-menu { gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .nav-logo { height: 48px; }
+}
